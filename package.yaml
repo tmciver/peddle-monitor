@@ -24,6 +24,8 @@ dependencies:
 
 library:
   source-dirs: src
+  dependencies:
+  - peddle
 
 executables:
   peddle-mon-exe:

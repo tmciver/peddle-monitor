@@ -1,5 +1,7 @@
 flags: {}
 packages:
 - .
-extra-deps: []
+extra-deps:
+  - git: https://github.com/tmciver/peddle.git
+    commit: 84796a83c7ecec10bb76854819b505fcf7f51702
 resolver: lts-12.10
