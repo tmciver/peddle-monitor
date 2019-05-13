@@ -22,11 +22,6 @@ description:         Please see the README on GitHub at <https://github.com/tmci
 dependencies:
 - base >= 4.7 && < 5
 
-library:
-  source-dirs: src
-  dependencies:
-  - peddle
-
 executables:
   peddle-mon-exe:
     main:                Main.hs
@@ -36,15 +31,5 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - peddle-mon
-
-tests:
-  peddle-mon-test:
-    main:                Spec.hs
-    source-dirs:         test
-    ghc-options:
-    - -threaded
-    - -rtsopts
-    - -with-rtsopts=-N
-    dependencies:
-    - peddle-mon
+    - peddle
+    - brick
