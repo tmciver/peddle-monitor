@@ -1,12 +1,6 @@
-flags: {}
+resolver: lts-15.10
 packages:
 - .
 extra-deps:
 - git: https://github.com/tmciver/peddle.git
   commit: 84796a83c7ecec10bb76854819b505fcf7f51702
-- brick-0.47
-- config-ini-0.2.4.0
-- data-clist-0.1.2.2
-- text-zipper-0.10.1
-- word-wrap-0.4.1
-resolver: lts-13.21
